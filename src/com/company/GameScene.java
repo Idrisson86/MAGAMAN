@@ -81,20 +81,20 @@ public class GameScene extends Scene{
 
     //staticThings leftback = new staticThings(0, 0, "C:\\Users\\idris\\Documents\\ENSEA\\2A\\S7\\Informatique\\Java\\desert.png");
     //staticThings rightback = new staticThings(800, 0, "C:\\Users\\idris\\Documents\\ENSEA\\2A\\S7\\Informatique\\Java\\desert.png");
-    Hero mega = new Hero("C:\\Users\\idris\\Documents\\ENSEA\\2A\\S7\\Informatique\\Java\\heros.png");
-    DarkHero Idris = new DarkHero("C:\\Users\\idris\\Documents\\ENSEA\\2A\\S7\\Informatique\\Java\\DarkHero.png");
+    Hero mega = new Hero("./image/heros.png");
+    DarkHero Idris = new DarkHero("image\\DarkHero.png");
     //Background platform = new Background("C:\\Users\\idris\\Documents\\ENSEA\\2A\\S7\\Informatique\\Java\\pngegg.png",500);
-    Enemy monster1 = new Enemy("C:\\Users\\idris\\Documents\\ENSEA\\2A\\S7\\Informatique\\Java\\monster.png",7,0,199,150,400,264);
-    Enemy monster2 = new Enemy("C:\\Users\\idris\\Documents\\ENSEA\\2A\\S7\\Informatique\\Java\\trump1.png",0,0,548,610,400,121);
-    Enemy monster3 = new Enemy("C:\\Users\\idris\\Documents\\ENSEA\\2A\\S7\\Informatique\\Java\\trump2.png",0,0,548,610,400,241);
-    staticThings heart1 = new staticThings(20, 20, "C:\\Users\\idris\\Documents\\ENSEA\\2A\\S7\\Informatique\\Java\\CoeurHumain.svg.png");
-    staticThings heart2 = new staticThings(50, 20, "C:\\Users\\idris\\Documents\\ENSEA\\2A\\S7\\Informatique\\Java\\CoeurHumain.svg.png");
-    staticThings heart3 = new staticThings(80, 20, "C:\\Users\\idris\\Documents\\ENSEA\\2A\\S7\\Informatique\\Java\\CoeurHumain.svg.png");
-    staticThings death = new staticThings(1000,50,"C:\\Users\\idris\\Documents\\ENSEA\\2A\\S7\\Informatique\\Java\\youdied.png");
-    Background far = new Background("C:\\Users\\idris\\Documents\\ENSEA\\2A\\S7\\Informatique\\Java\\fond.jpg",0,1920,960);
-    Background nextFar = new Background("C:\\Users\\idris\\Documents\\ENSEA\\2A\\S7\\Informatique\\Java\\fond.jpg",0,1920,960);
-    Background back = new Background("C:\\Users\\idris\\Documents\\ENSEA\\2A\\S7\\Informatique\\Java\\fond2.png",0,1920,960);
-    Background nextBack = new Background("C:\\Users\\idris\\Documents\\ENSEA\\2A\\S7\\Informatique\\Java\\fond2.png",800,1920,960);
+    Enemy monster1 = new Enemy("image\\monster.png",7,0,199,150,400,264);
+    Enemy monster2 = new Enemy("image\\trump1.png",0,0,548,610,400,121);
+    Enemy monster3 = new Enemy("image\\trump2.png",0,0,548,610,400,241);
+    staticThings heart1 = new staticThings(20, 20, "image\\CoeurHumain.svg.png");
+    staticThings heart2 = new staticThings(50, 20, "image\\CoeurHumain.svg.png");
+    staticThings heart3 = new staticThings(80, 20, "image\\CoeurHumain.svg.png");
+    staticThings death = new staticThings(1000,50,"image\\youdied.png");
+    Background far = new Background("image\\fond.jpg",0,1920,960);
+    Background nextFar = new Background("image\\fond.jpg",0,1920,960);
+    Background back = new Background("image\\fond2.png",0,1920,960);
+    Background nextBack = new Background("image\\fond2.png",800,1920,960);
     Double xc = 100.0;
     Camera cam1 = new Camera(mega);
     public void render(Double heroposx, Double xc){

@@ -59,7 +59,7 @@ public class Main extends Application{
 
         gameScene.nextBack.x=800;
 
-        File file = new File("Projet - Shy Guy.wav");
+        File file = new File("src/image/Projet - Shy Guy.wav");
         AudioInputStream audioStream = AudioSystem.getAudioInputStream(file);
         Clip clip = AudioSystem.getClip();
         clip.open(audioStream);
